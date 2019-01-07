@@ -17,14 +17,13 @@ type udpConn struct {
 func newUDPConn(addr string) (*udpConn, error) {
 	var err error
 	c := new(udpConn)
-	c.conn, err = net.ListenPacket("udp", "localhost:0")
-	if err != nil {
+	if c.conn, err = net.ListenPacket("udp", "localhost:0"); err != nil {
 		return nil, err
 	}
-	c.addr, err = net.ResolveUDPAddr("udp", addr)
-	if err != nil {
+	if c.addr, err = net.ResolveUDPAddr("udp", addr); err != nil {
 		return nil, err
 	}
+
 	return c, nil
 }
 
