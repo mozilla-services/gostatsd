@@ -1,13 +1,12 @@
 # statsd
-[![Build Status](https://travis-ci.org/alexcesaro/statsd.svg?branch=v2)](https://travis-ci.org/alexcesaro/statsd) [![Code Coverage](http://gocover.io/_badge/gopkg.in/alexcesaro/statsd.v2)](http://gocover.io/gopkg.in/alexcesaro/statsd.v2) [![Documentation](https://godoc.org/gopkg.in/alexcesaro/statsd.v2?status.svg)](https://godoc.org/gopkg.in/alexcesaro/statsd.v2)
+[![Build Status](https://travis-ci.org/oremj/gostatsd.svg?branch=master)](https://travis-ci.org/oremj/gostatsd) [![Code Coverage](http://gocover.io/_badge/github/oremj/gostatsd)](http://gocover.io/github.com/oremj/gostatsd) [![Documentation](https://godoc.org/github.com/oremj/gostatsd?status.svg)](https://godoc.org/github.com/oremj/gostatsd)
 
 ## Introduction
 
+This is a fork of https://github.com/alexcesaro/statsd which is currently unmaintained.
+
 statsd is a simple and efficient [Statsd](https://github.com/etsy/statsd)
 client.
-
-See the [benchmark](https://github.com/alexcesaro/statsdbench) for a comparison
-with other Go StatsD clients.
 
 ## Features
 
@@ -22,29 +21,19 @@ with other Go StatsD clients.
 
 ## Documentation
 
-https://godoc.org/gopkg.in/alexcesaro/statsd.v2
+https://godoc.org/github.com/oremj/gostatsd
 
 
 ## Download
 
-    go get gopkg.in/alexcesaro/statsd.v2
+    go get github.com/oremj/gostatsd
 
 
 ## Example
 
-See the [examples in the documentation](https://godoc.org/gopkg.in/alexcesaro/statsd.v2#example-package).
+See the [examples in the documentation](https://godoc.org/github.com/oremj/gostatsd#example-package).
 
 
 ## License
 
 [MIT](LICENSE)
-
-
-## Contribute
-
-Do you have any question the documentation does not answer? Is there a use case
-that you feel is common and is not well-addressed by the current API?
-
-If so you are more than welcome to ask questions in the
-[thread on golang-nuts](https://groups.google.com/d/topic/golang-nuts/Tz6t4_iLgnw/discussion)
-or open an issue or send a pull-request here on Github.
