@@ -1,5 +1,5 @@
 # statsd
-[![Build Status](https://travis-ci.org/oremj/gostatsd.svg?branch=master)](https://travis-ci.org/oremj/gostatsd) [![Code Coverage](http://gocover.io/_badge/github.com/oremj/gostatsd)](http://gocover.io/github.com/oremj/gostatsd) [![Documentation](https://godoc.org/github.com/oremj/gostatsd?status.svg)](https://godoc.org/github.com/oremj/gostatsd)
+[![Build Status](https://travis-ci.org/oremj/gostatsd.svg?branch=master)](https://travis-ci.org/oremj/gostatsd) [![Code Coverage](http://gocover.io/_badge/github.com/oremj/gostatsd/statsd)](http://gocover.io/github.com/oremj/gostatsd/statsd) [![Documentation](https://godoc.org/github.com/oremj/gostatsd/statsd?status.svg)](https://godoc.org/github.com/oremj/gostatsd/statsd)
 
 ## Introduction
 
