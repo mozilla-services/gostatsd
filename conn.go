@@ -17,7 +17,7 @@ type udpConn struct {
 func newUDPConn(addr string) (*udpConn, error) {
 	var err error
 	c := new(udpConn)
-	c.conn, err = net.ListenPacket("udp", ":0")
+	c.conn, err = net.ListenPacket("udp", "localhost:0")
 	if err != nil {
 		return nil, err
 	}
