@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/oremj/gostatsd/statsd"
+	"github.com/mozilla-services/gostatsd/statsd"
 )
 
 var (

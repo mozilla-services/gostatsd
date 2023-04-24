@@ -1,5 +1,4 @@
 # statsd
-[![Build Status](https://travis-ci.org/oremj/gostatsd.svg?branch=master)](https://travis-ci.org/oremj/gostatsd) [![Code Coverage](http://gocover.io/_badge/github.com/oremj/gostatsd/statsd)](http://gocover.io/github.com/oremj/gostatsd/statsd) [![Documentation](https://godoc.org/github.com/oremj/gostatsd/statsd?status.svg)](https://godoc.org/github.com/oremj/gostatsd/statsd)
 
 ## Introduction
 
@@ -26,12 +25,12 @@ https://godoc.org/github.com/oremj/gostatsd
 
 ## Download
 
-    go get github.com/oremj/gostatsd
+    go get github.com/mozilla-services/gostatsd
 
 
 ## Example
 
-See the [examples in the documentation](https://godoc.org/github.com/oremj/gostatsd#example-package).
+See the [examples in the documentation](https://godoc.org/github.com/mozilla-services/gostatsd#example-package).
 
 
 ## License
